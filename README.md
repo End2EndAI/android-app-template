@@ -2,7 +2,7 @@
 
 This repository is a solution to integrate your web app into an Android application using WebView. The primary purpose is to provide a seamless experience for users accessing web apps on mobile devices.
 
-In this repository, we are creating an android app for this webapp : https://lfontaine.pythonanywhere.com/
+In this repository, we are creating an android app for this webapp : https://travel-ai-translator.vercel.app/
 
 The webapp code is also on github : https://github.com/End2EndAI/travel-ai-translator
 
@@ -53,7 +53,7 @@ Ensure you have Android Studio installed and set up on your machine.
 
 3. Set Up Your Web App URL:
     - Open the `MainActivity.java` file.
-    - Replace the URL `https://lfontaine.pythonanywhere.com/` with the URL of your web app.
+    - Replace the URL `https://travel-ai-translator.vercel.app/` with the URL of your web app.
     - **Important**: If you are running the Flask server locally using the guide from [the repository travel-ai-translator](https://github.com/End2EndAI/travel-ai-translator), replace the IP address in `MainActivity.java` with the IP address of your Flask server (don't use localhost, but the one like https://192.168.x.x:5009). You can find it when lauching the flask server in the terminal.
     - There's a `DEV_MODE` variable in `MainActivity.java`. When `DEV_MODE` is set to `true`, the app will load from the local flask server. When it's set to `false`, it will load from the website URL you specified above.
 

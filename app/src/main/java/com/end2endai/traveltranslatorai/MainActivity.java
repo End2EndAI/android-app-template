@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             // Load the web content
             if (DEV_MODE == false) {
-                webView.loadUrl("https://lfontaine.pythonanywhere.com/");
+                webView.loadUrl("https://travel-ai-translator.vercel.app/");
             } else {
                 webView.loadUrl("https://192.168.0.3:5009");
             }
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // Permission granted, load the web content
                 if (DEV_MODE == false) {
-                    webView.loadUrl("https://lfontaine.pythonanywhere.com/");
+                    webView.loadUrl("https://travel-ai-translator.vercel.app/");
                 } else {
                     webView.loadUrl("https://192.168.0.3:5009");
                 }
